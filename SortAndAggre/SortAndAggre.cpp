@@ -40,6 +40,7 @@ int main()
 	std::map<string, int> map;
 	std::map<string, int>::iterator it;
 
+	//多线程搞应该线程不安全
 	while (getline(fin, s))
 	{
 		std::vector<std::string> res = split(s,",");
